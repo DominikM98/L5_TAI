@@ -13,6 +13,9 @@ export class BlogItemComponent implements OnInit {
   @Input()
   text: string;
 
+  @Input()
+  id: number;
+
   constructor() { }
 
   ngOnInit(): void {
